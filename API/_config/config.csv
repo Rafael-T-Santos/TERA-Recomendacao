@@ -1,0 +1,2 @@
+server;database;username;password
+tcp:IP_SERVIDOR,PORTA_CONEXAO;NOME_BANCO;USUARIO;SENHA
