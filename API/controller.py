@@ -9,9 +9,6 @@ df_ped = df_ped[['CD_PEDIDO', 'CD_MATERIAL']]
 df_ped = pd.crosstab(df_ped.CD_PEDIDO, df_ped.CD_MATERIAL)
 df_ped[df_ped>1] = 1
 
-
-
-
 qt_transact = 50
 min_support = qt_transact / len(df_ped.index)
 
